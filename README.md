@@ -1,27 +1,52 @@
-# Mini-project IV
+# **Predicting Loan Approval: Supervised Machine Learning and Deployment**
+<br>
+<br>
+<br>
 
-### [Assignment](assignment.md)
+# Process: 
+<br>
 
-## Project/Goals
-(fill in your description and goals here)
+![Process](images/process.png)
+<br>
+<br>
+<br>
 
-## Hypothesis
-(fill in your hypothesis about which subset of applicants will be most likely to have their loan approved, and why. Give some examples of how you will test this hypothesis)
+# Project/Goals
+The goal of this project is to develop and deploy a supervised machine learning algorithm for predicting loan application outcomes. 
+<br>
+<br>
+<br>
 
-## EDA 
-(fill in what you discovered in your exploration of the dataset)
+# Hypothesis
+Applicants with good credit score and decent ammount of income are most likely to have their loan approved. This is because lenders use rely on these metrics to investigate borrowing habbits and the likelihood of timely payment. This is further tested by examining loan ammount to income ration (loan ammount / income), credit history and weather most applicants got approved or not.
+<br>
+<br>
+<br>
+
+# EDA 
+![EDA1](images/EDA1.png)
+![EDA1](images/EDA2.png)
+![EDA1](images/EDA3.png)
+![EDA1](images/EDA4.png)
 
 
-## Process
-(fill in what you did during EDA, cleaning, feature engineering, modeling, deployment, testing)
-### (your step 1)
-### (your step 2)
 
-## Results/Demo
-(fill in your model's performance, details about the API you created, and (optional) a link to an live demo)
+# Model building
+> The steps utilized involved feature selection, building a base model, hyperparameter tuning and boosting models. 
+> The results are depicted below
 
-## Challanges 
-(discuss challenges you faced in the project)
+![EDA1](images/Result1.png)
+
+# Results/Demo
+http://54.235.29.160:5555/predictLoan
+
+![EDA1](images/Demo.png)
+
+# Challanges 
+Got caught up in getting a perfect model\
+Wasn’t able to deploy on time\
+AWS deployment learning curve is steepe\
+Pickle…
 
 ## Future Goals
-(what would you do if you had more time? are there any potential issues/biases with your model/use case?)
+Refine the model to predict more accurately and adress the bias within marital statuses. 

@@ -6,7 +6,7 @@
 # Process: 
 <br>
 
-![Process](images/process.png)
+![Process](images/Process.png)
 <br>
 <br>
 <br>

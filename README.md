@@ -38,7 +38,7 @@ Applicants with good credit score and decent ammount of income are most likely t
 ![EDA1](images/Result1.png)
 
 # Results/Demo
-http://54.235.29.160:5555/predictLoan
+http://54.235.29.160:5555/ You will be greeted by a welcome screen, feel free to use the endpoint `/predictLoan`
 
 ![EDA1](images/Demo.png)
 
